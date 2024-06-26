@@ -37,9 +37,9 @@ function InterviewList() {
   return (
     <div>
         <h2 className='font-medium text-xl '>Previous Mock Interview</h2>
-        <div className='grid grid-rows-1 lg:grid-cols-4 gap-4'>
+        <div className='grid grid-rows-1 lg:grid-cols-3 gap-4'>
             {interviewList&&interviewList.map((interview,index)=>(
-                <div className = 'w-100'>
+                <div className = 'w-full'>
                     <Card >
                 <CardHeader>
                   <CardTitle>{interview.jobPosition}</CardTitle>
@@ -50,7 +50,7 @@ function InterviewList() {
                   
                 </CardContent>
                 <CardFooter>
-                <div className='flex gap-20'>
+                <div className='flex flex-col-2 justify-between items-centre gap-2'>
                     <Link href={'/dashboard/interview/'+interview.mockId+'/feedback'}><Button variant="outline" className='hover:scale-110 transition-all w-full'>Feedback</Button></Link>
                     <Link href={'/dashboard/interview/'+interview.mockId}><Button className='hover:scale-110 transition-all w-full'>Retake Interview</Button></Link>
                   </div>
