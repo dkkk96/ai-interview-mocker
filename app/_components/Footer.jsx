@@ -4,13 +4,13 @@ function Footer() {
   return (
     <div>
         <footer className="bg-white lg:grid lg:grid-cols-5">
-  <div className="relative block h-32 lg:col-span-2 lg:h-full">
+  {/* <div className="relative block h-32 lg:col-span-2 lg:h-full">
     <img
       src="https://static.vecteezy.com/system/resources/previews/012/616/780/original/happy-man-showing-thumbs-up-gesture-cartoon-character-vector.jpg"
       alt=""
       className="mx-24 absolute inset-0 w-[500px] object-cover place-items-center"
     />
-  </div>
+  </div> */}
 
   <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
