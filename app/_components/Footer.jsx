@@ -8,7 +8,7 @@ function Footer() {
     <img
       src="https://static.vecteezy.com/system/resources/previews/012/616/780/original/happy-man-showing-thumbs-up-gesture-cartoon-character-vector.jpg"
       alt=""
-      className="mx-24 absolute inset-0 w-[600px] object-cover place-items-center"
+      className="mx-24 absolute inset-0 w-[500px] object-cover place-items-center"
     />
   </div>
 
