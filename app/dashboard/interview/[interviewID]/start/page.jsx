@@ -35,7 +35,7 @@ function StartInterview({params}) {
     </div>
     <div className='flex justify-end gap-6'>
         {activeQuestionIndex>0&&<Button onClick={()=>setActiveQuestionIndex(activeQuestionIndex-1)}>Previous Question</Button>}
-        {activeQuestionIndex<6 && <Button onClick={()=>setActiveQuestionIndex(activeQuestionIndex+1)}>Next Question</Button>}
+        {activeQuestionIndex<4 && <Button onClick={()=>setActiveQuestionIndex(activeQuestionIndex+1)}>Next Question</Button>}
         {activeQuestionIndex==4&&<Link href={"/dashboard/interview/"+interviewData?.mockId+"/feedback"}><Button>End Interview</Button></Link>}
     </div>
     </div>

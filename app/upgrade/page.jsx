@@ -12,7 +12,7 @@ function Upgrade() {
           <span className="sr-only">Plan</span>
         </h2>
 
-        <p className="mt-2 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="mt-2 text-gray-700">2 Mock Interview Per Day</p>
 
         <p className="mt-2 sm:mt-4">
           <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 20$ </strong>
@@ -44,7 +44,7 @@ function Upgrade() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
 
-            <span className="text-gray-700"> 10 users </span>
+            <span className="text-gray-700"> 2 Mock Interview Per Day </span>
           </li>
 
           <li className="flex items-center gap-1">
@@ -59,7 +59,7 @@ function Upgrade() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
 
-            <span className="text-gray-700"> 2GB of storage </span>
+            <span className="text-gray-700"> Instant Feedback </span>
           </li>
 
           <li className="flex items-center gap-1">
@@ -132,7 +132,7 @@ function Upgrade() {
           <span className="sr-only">Plan</span>
         </h2>
 
-        <p className="mt-2 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="mt-2 text-gray-700">30 Mock Interview Per Day</p>
 
         <p className="mt-2 sm:mt-4">
           <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 30$ </strong>
@@ -164,7 +164,7 @@ function Upgrade() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
 
-            <span className="text-gray-700"> 20 users </span>
+            <span className="text-gray-700"> 30 Interviews Per Day </span>
           </li>
 
           <li className="flex items-center gap-1">
@@ -179,7 +179,7 @@ function Upgrade() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
 
-            <span className="text-gray-700"> 5GB of storage </span>
+            <span className="text-gray-700"> Instant Feedback </span>
           </li>
 
           <li className="flex items-center gap-1">
@@ -252,7 +252,7 @@ function Upgrade() {
           <span className="sr-only">Plan</span>
         </h2>
 
-        <p className="mt-2 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="mt-2 text-gray-700">Unlimited Interviews</p>
 
         <p className="mt-2 sm:mt-4">
           <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 100$ </strong>
@@ -284,7 +284,7 @@ function Upgrade() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
 
-            <span className="text-gray-700"> 50 users </span>
+            <span className="text-gray-700"> Unlimited Mock Interviews </span>
           </li>
 
           <li className="flex items-center gap-1">
@@ -299,7 +299,7 @@ function Upgrade() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
 
-            <span className="text-gray-700"> 20GB of storage </span>
+            <span className="text-gray-700"> Instant Feedback </span>
           </li>
 
           <li className="flex items-center gap-1">

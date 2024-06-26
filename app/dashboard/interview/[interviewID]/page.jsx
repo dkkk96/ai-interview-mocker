@@ -37,7 +37,12 @@ function Interview({params}) {
             </div>
             <div className='p-5 border rounded-lg border-yellow-300 bg-yellow-100'>
                 <h2 className='flex gap-2 items-center  text-yellow-500'><Lightbulb/><strong>Information</strong></h2>
-                <h2 className='mt-3 text-yellow-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur eius at hic, eaque, iure nisi repudiandae fugit veniam doloremque, temporibus soluta odit rerum expedita tempore. Saepe, sint! Optio, hic?</h2>
+                <h2 className='mt-3 text-yellow-500'> To ensure the best experience on our platform, we kindly request
+              users to enable their webcam and microphone for recording answers
+              during mock interviews. Rest assured, we prioritize your privacy
+              and security. All data is securely stored and protected. Your
+              success and confidence in job interviews are our priority. Let's
+              prepare smart and shine bright!</h2>
             </div>
         </div>
         <div >

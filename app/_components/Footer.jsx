@@ -130,15 +130,15 @@ function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">Dashboard</a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75 hover:shadow-lg shadow-indigo-500/50 outline-none bg-transparent hover:text-primary rounded-lg p-2">Dashboard</a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">Upgrade</a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75 hover:shadow-lg shadow-indigo-500/50 outline-none bg-transparent hover:text-primary rounded-lg p-2">Upgrade</a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">How it works?</a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75 hover:shadow-lg shadow-indigo-500/50 outline-none bg-transparent hover:text-primary rounded-lg p-2">How it works?</a>
             </li>
 
             
@@ -150,15 +150,15 @@ function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75 hover:shadow-lg shadow-indigo-500/50 outline-none bg-transparent hover:text-primary rounded-lg p-2"> About </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75 hover:shadow-lg shadow-indigo-500/50 outline-none bg-transparent hover:text-primary rounded-lg p-2"> Meet the Team </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75 hover:shadow-lg shadow-indigo-500/50 outline-none bg-transparent hover:text-primary rounded-lg p-2"> Accounts Review </a>
             </li>
           </ul>
         </div>
