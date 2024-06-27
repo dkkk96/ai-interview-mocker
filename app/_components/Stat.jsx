@@ -6,7 +6,7 @@ function Stat() {
         <section className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
-      <h2 className="text-3xl font-bold text-primary sm:text-4xl">Trusted by AI Mocker Interview App</h2>
+      <h2 className="text-3xl font-bold text-primary sm:text-4xl">Trusted AI Mocker Interview App</h2>
 
       <p className="mt-4 text-gray-500 sm:text-xl">
       Trusted by working professionals and students worldwide to master the art of cracking interviews.
