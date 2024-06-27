@@ -1,5 +1,5 @@
 
-
+"use client"
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
@@ -40,7 +40,7 @@ function RecordAnswerSection({mockInterviewQuestion,activeQuestionIndex, intervi
     ))
   },[results])
 
-  const StartStopRecording = async ()=>
+  const StartStopRecording =  async()=>
     {
       if(isRecording)
         {
@@ -60,11 +60,12 @@ function RecordAnswerSection({mockInterviewQuestion,activeQuestionIndex, intervi
     const feedbackPrompt = "Question:"+mockInterviewQuestion[activeQuestionIndex]?.question+", User Answer"+userAnswer+", Depends on question and user answer for given interview question please give us rating for answer and give us feedback as area of improvement if any. "+"in just 3 to 5 line to improve it in JSON format with rating and feedback field";
 
             const result = await chatSession.sendMessage(feedbackPrompt);
+           // console.log("This is result", result);
             const mockJSONResp = (result.response.text()).replace('```json','').replace('```','');
-            console.log(mockJSONResp);
+            //console.log(mockJSONResp);
             const JsonFeedbackResp = JSON.parse(mockJSONResp);
-            console.log("jsonmockResp",JsonFeedbackResp);
-            console.log("This is mockID",interviewData?.mockId);
+           // console.log("jsonmockResp",JsonFeedbackResp);
+           // console.log("This is mockID",interviewData?.mockId);
             const resp = await db.insert(UserAnswer).values({
                 mockIdRef : interviewData?.mockId,
                 question : mockInterviewQuestion[activeQuestionIndex]?.question,
@@ -118,6 +119,7 @@ function RecordAnswerSection({mockInterviewQuestion,activeQuestionIndex, intervi
         <Mic/> Stop Recording...
       </h2> :  'Record Answer'}
       {console.log(isRecording)}
+      {console.log(userAnswer)}
     </Button>
     
 
